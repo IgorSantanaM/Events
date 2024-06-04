@@ -36,7 +36,6 @@ builder.Services.AddMvc(options =>
 
 var app = builder.Build();
 
-app.UseElmahIo();
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
 {
